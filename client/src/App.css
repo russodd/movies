@@ -1,0 +1,131 @@
+.App {
+  margin: 3em auto;
+  max-width: 800px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  height: 1em;
+  padding: 1em 0;
+}
+
+.menu-item {
+  font-weight: bold;
+  padding-right: 2em;
+  float: left;
+  cursor: pointer;
+}
+
+.menu-search {
+  margin-right: 1em;
+}
+
+.page-heading {
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+.movie-list-entry {
+  padding: 0.5em 0;
+  height: 6em;
+  width: 100%;
+  float: left;
+}
+
+.movie-list-entry-poster {
+  height: 6em;
+  width: 4em;
+  cursor: pointer;
+  float: left;
+}
+
+.movie-list-entry-description {
+  padding-left: 4.5em;
+}
+
+.movie-list-entry-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.movie-list-entry-overview {
+  font-size: 0.8em;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-detail-title {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.movie-detail-release {
+  padding-bottom: 1em;
+}
+
+.movie-detail-description {
+  height: 12em;
+  padding-bottom: 1em;
+}
+
+.movie-detail-poster {
+  height: 12em;
+  width: 8em;
+  float: left;
+}
+
+.movie-detail-overview {
+  font-size: 0.8em;
+  padding-left: 11em;
+}
+
+.movie-detail-cast {
+  width: 100%;
+  margin: auto;
+  float: none;
+}
+
+.movie-detail-cast-heading {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.movie-detail-cast-entry {
+  width: 100%;
+  margin: auto;
+}
+
+.movie-detail-cast-name {
+  font-weight: bold;
+  width: 50%;
+  float: left;
+}
+
+.movie-detail-cast-name, .movie-detail-cast-character {
+  padding: 0.2em;
+}
+
+.bottom-credit {
+  padding-top: 1em;
+}
